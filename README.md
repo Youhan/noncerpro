@@ -25,4 +25,5 @@ slug: unique-slug
 ```
 and run `gridsome develop`
 
-
+## How to submit GPU benchmarks
+Just edit `Benchmarks.json` file and send a PR.
