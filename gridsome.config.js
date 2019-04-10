@@ -2,7 +2,7 @@ module.exports = {
   siteName: `Nimiq GPU miner done right! - NoncerPro`,
   titleTemplate: `%s - Nimiq GPU miner`,
   siteDescription:"NoncerPro is a powreful GPU miner with local statistics API and is compatible with HiveOS.",
-  siteUrl: "https://nonce.pro",
+  siteUrl: "https://www.noncer.pro",
   plugins: [
     {
       use: '@gridsome/source-filesystem',
