@@ -1,7 +1,6 @@
 module.exports = {
-  siteName: `Best Nimiq GPU miner - NoncerPro`,
+  siteName: `Nimiq GPU miner done right! - NoncerPro`,
   titleTemplate: `%s - Nimiq GPU miner`,
-
   plugins: [
     {
       use: '@gridsome/source-filesystem',
