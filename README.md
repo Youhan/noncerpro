@@ -1,5 +1,5 @@
 # NoncerPro Website
-[![Netlify Status](https://api.netlify.com/api/v1/badges/da7905f0-11c1-4e01-a083-9e6a5f3f1cd8/deploy-status)](https://app.netlify.com/sites/infallible-khorana-6cb47b/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/57615edf-5671-4611-b392-9300aef500b3/deploy-status)](https://app.netlify.com/sites/flamboyant-ramanujan-501782/deploys)
 
 
 ## How to develop
