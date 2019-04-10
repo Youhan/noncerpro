@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: `Gridsome Starter Blog`,
-  titleTemplate: `%s - Gridsome`,
+  siteName: `Best Nimiq GPU miner - NoncerPro`,
+  titleTemplate: `%s - Nimiq GPU miner`,
 
   plugins: [
     {
