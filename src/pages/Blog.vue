@@ -9,9 +9,9 @@
 
       <div class="section">
         <div class="container">
+          
           <div class="articles-list columns is-multiline">
-
-            <div class="column is-one-quarter-widescreen is-one-third-desktop is-half-tablet" v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
+            <div class="column is-one-quarter-widescreen is-one-third-desktop is-half-tablet" v-for="{ node } in $page.allBlogPost.edges" :key="node.id">
               <router-link class="np-article" :to="node.path">
                 <div class="img-wrapper">
                   <img :src="node.image.src" class="featured-image"/>
@@ -36,7 +36,7 @@
     allBlogPost (page: $page) {
       edges {
         node {
-          _id
+          id
           title
           date (format: "D MMMM, YYYY")
           description
