@@ -14,7 +14,7 @@
             <div class="column is-one-quarter-widescreen is-one-third-desktop is-half-tablet" v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
               <router-link class="np-article" :to="node.path">
                 <div class="img-wrapper">
-                  <g-image :src="node.image" class="featured-image"/>
+                  <img :src="node.image.src" class="featured-image"/>
                 </div>
                 <div class="inner">
                   <h2 class="is-size-5" v-html="node.title"/>
